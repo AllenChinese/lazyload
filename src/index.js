@@ -77,3 +77,5 @@ class Loadlazy {
     }
   }
 }
+
+module.export = Loadlazy

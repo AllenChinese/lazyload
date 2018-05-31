@@ -1,0 +1,19 @@
+{
+  "name": "lazyload",
+  "version": "1.0.0",
+  "description": "this is a npm package about lazy load",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllenChinese/lazyload.git"
+  },
+  "author": "zhoujiawei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllenChinese/lazyload/issues"
+  },
+  "homepage": "https://github.com/AllenChinese/lazyload#readme"
+}

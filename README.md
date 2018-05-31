@@ -1,6 +1,6 @@
 # lazyload
 
-this is lazyload lib.
+懒加载工具。
 
 ## 什么是懒加载
 
@@ -17,3 +17,38 @@ this is lazyload lib.
 
 
 利用监听滚动条事件，当图片进入可视区域时，将 src 中的占位符地址改为 data-origin 中地址。
+
+## 引用
+
+    <link rel="stylesheet" href="index.css">
+
+或者
+
+    npm install
+
+## 使用
+
+### HTML结构
+
+    <div id="loadContainer" class="load-container">
+      <ul>
+        <li>
+          <img class="lazy-img" data-origin="https://images.pexels.com/xxx" alt="">
+        </li>
+      </ul>
+    </div>
+
+1、一个id表示是一个提供懒加载的容器。
+
+2、所有需要懒加载的图片都需要添加一个统一的class。
+
+### JavaScript
+
+初始化 Loadlazy 对象,并配置相关参数。
+
+    new Loadlazy({
+      el: '#loadContainer', // 容器必须 id
+      lazy: '.lazy-img', // img class
+      distanceToTop: 0 // 触发懒加载距离
+    })
+

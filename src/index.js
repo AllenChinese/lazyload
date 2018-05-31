@@ -77,10 +77,3 @@ class Loadlazy {
     }
   }
 }
-
-// 使用
-new Loadlazy({
-  el: '#loadContainer',
-  lazy: '.lazy',
-  distanceToTop: 0
-})
